@@ -148,6 +148,12 @@ export default {
         letterSpacing: '0.46px',
         fontWeight: '700',
       }],
+      'email' : ['16px', {
+        lineHeight: 'auto',
+        letterSpacing: 'auto',
+        fontWeight: '700',
+        fontFamily : 'Courier New',
+      }],
     },
     extend: {},
   },
