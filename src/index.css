@@ -7,4 +7,20 @@
     font-family: Inter, system-ui, sans-serif;
     font-family: 'Courier New', system-ui, sans-serif;
   }
+  .line::after{
+    content: "";
+    display: block;
+    width: 2px;
+    height: 200px;
+    margin: 0px 15px;
+    background-color: #E4C7B7;
+  }
+  .line-right::after{
+    content: "";
+    display: block;
+    width: 2px;
+    height: 200px;
+    margin-top: 210px;
+    background-color: #E4C7B7;
+  }
 }

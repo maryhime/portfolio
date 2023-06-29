@@ -1,6 +1,6 @@
 export const ICONS = Object.freeze([
   {
-    menu : 
+    'menu': 
     'icons/icon-menu.svg',
 
     'arrow-down' : 

@@ -1,17 +1,13 @@
 ''
-import NavbarComponent from "./components/NavbarComponent";
+
 import HeroSection from "./components/HeroSection";
+import HomePage from "./pages/HomePage";
 
 export const PAGES = [
   {
     name : "Menu",
     path : '/name',
-    component : <NavbarComponent />
-  },
-  {
-    name : "Home",
-    path : '/name',
-    component : <HeroSection />
+    component : <HomePage/>
   },
 ]
 

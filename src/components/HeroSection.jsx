@@ -1,9 +1,10 @@
 import React from 'react'
+import SideLinks from './SideLinks'
 
 const HeroSection = () => {
   return (
-    <div className="h-screen w-screen">
-
+    <div className="min-h-screen w-screen">
+      <SideLinks />
     </div>
   )
 }
