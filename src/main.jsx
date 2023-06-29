@@ -2,6 +2,7 @@ import React, { Fragment } from 'react'
 import ReactDOM from 'react-dom/client'
 import './index.css'
 import { PAGES } from './routes'
+import SideLinks from './components/SideLinks'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
@@ -12,6 +13,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
       </Fragment>
   
       )}
+      <SideLinks />
     </div>
   </React.StrictMode>,
 )

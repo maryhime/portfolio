@@ -119,7 +119,7 @@ export default {
         letterSpacing: 'auto',
         fontWeight: 'normal',
       }],
-      'phone-h1' : ['48px', {
+      'phone-h1' : ['45px', {
         lineHeight: 'auto',
         letterSpacing: 'auto',
         fontWeight: '700',

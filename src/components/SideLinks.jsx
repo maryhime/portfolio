@@ -4,7 +4,7 @@ import LinkComponent from './generic/LinkComponent'
 
 const SideLinks = () => {
   return (
-    <div className="flex flex-row justify-between w-screen h-[100vh] items-end px-64 sticky top-full">
+    <div className="phone:hidden tablet:flex flex-row justify-between w-screen items-end px-64 sticky">
       <div className="flex flex-col justify-start">
         {ICONS.map((value, index) =>
           <ul key={index} className='line flex flex-col gap-24'>
