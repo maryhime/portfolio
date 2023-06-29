@@ -1,5 +1,6 @@
+''
 import NavbarComponent from "./components/NavbarComponent";
-import HeroSection from "./pages/HeroSection";
+import HeroSection from "./components/HeroSection";
 
 export const PAGES = [
   {
@@ -8,8 +9,9 @@ export const PAGES = [
     component : <NavbarComponent />
   },
   {
-    name : "Hero Section",
+    name : "Home",
     path : '/name',
     component : <HeroSection />
   },
 ]
+

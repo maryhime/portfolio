@@ -7,6 +7,7 @@ export default {
   theme: {
     screens : {
       'phone' : '375px',
+      'phone-lg' : '768px',
       'tablet' : '1024px',
       'laptop' : '1280px',
       'desktop' : '1728px',
@@ -22,6 +23,7 @@ export default {
       '64' : '64px',
       '48' : '48px',
       '24' : '24px',
+      '20' : '20px',
       '16' : '16px',
       '8' : '8px',
     },
@@ -36,6 +38,15 @@ export default {
     fontFamily : {
       'inter' : ['Inter', 'sans-serif'],
       'email' : ['Courier New', 'sans-serif'],
+    },
+    height: {
+      'button': '56px',
+      'button-m' : '40px',
+    },
+    borderRadius: {
+      'none': '0',
+      'button': '30px',
+      'card': '30px'
     },
     fontSize : {
       'h1' : ['120px', {
