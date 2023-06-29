@@ -9,7 +9,7 @@ const HomePage = () => {
   return (
     <>
       <NavbarComponent />
-      <div className="fixed w-full top-1/4">
+      <div className="phone:hidden tablet:fixed w-full top-1/4">
         <SideLinks />
         <RightSideLink />
       </div>
