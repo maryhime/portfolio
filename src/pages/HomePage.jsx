@@ -4,6 +4,8 @@ import HeroSection from '../components/HeroSection'
 import SideLinks from '../components/SideLinks'
 import RightSideLink from '../components/RightSideLink'
 import AboutPage from './AboutPage'
+import ServicesPage from './ServicesPage'
+
 
 const HomePage = () => {
   return (
@@ -15,6 +17,9 @@ const HomePage = () => {
       </div>
       <HeroSection />
       <AboutPage/>
+      <ServicesPage />
+     
+      
 
     </>
 

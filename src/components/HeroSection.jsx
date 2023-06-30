@@ -37,7 +37,10 @@ const HeroSection = () => {
             </div>
           </div>
 
-          <img src={value['arrow-down']} className='w-[70px] phone:h-[70px] tablet:h-[100px] tablet:w-[100px] animate-bounce' alt="" />
+          <LinkComponent url={'#'}>
+            <img src={value['arrow-down']} className='w-[70px] phone:h-[70px] tablet:h-[100px] tablet:w-[100px] animate-bounce' alt="" />
+          </LinkComponent>
+          
 
 
 

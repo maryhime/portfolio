@@ -1,13 +1,18 @@
-import React from 'react'
+import React, { Fragment } from 'react'
 import AboutSection from '../components/AboutSection'
 import WorkExperience from '../components/WorkExperience'
 
+
 const AboutPage = () => {
   return (
- <>
- <AboutSection />
- <WorkExperience/>
- </>
+    <Fragment>
+      <div id='about'>
+        <AboutSection />
+        <WorkExperience />
+      </div>
+    
+
+    </Fragment>
   )
 }
 
