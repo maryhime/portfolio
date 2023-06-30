@@ -1,11 +1,13 @@
 import React from 'react'
-import FilledButtonComponent from '../components/generic/FilledButtonComponent'
+import AboutSection from '../components/AboutSection'
+import WorkExperience from '../components/WorkExperience'
 
 const AboutPage = () => {
   return (
-    <div className='text-text-color px-100'>
-
-    </div>
+ <>
+ <AboutSection />
+ <WorkExperience/>
+ </>
   )
 }
 

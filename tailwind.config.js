@@ -144,10 +144,19 @@ export default {
         letterSpacing: 'auto',
         fontWeight: '600',
       }],
-      'phone-h6' : ['20px', {
+      'phone-h6' : ['18px', {
         lineHeight: 'auto',
         letterSpacing: 'auto',
         fontWeight: '600',
+      }],
+      'phone-subhead' : ['14px', {
+        lineHeight: 'normal',
+        letterSpacing: '4.34px',
+        fontWeight: '600',
+      }],
+      'phone-body' : ['16px', {
+        lineHeight: 'normal',
+        fontWeight: '400',
       }],
       'btn-lg' : ['18px', {
         lineHeight: '26px',
