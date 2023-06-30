@@ -4,8 +4,7 @@ import { EXPERIENCES } from '../utils/workExperiences'
 
 const WorkExperience = () => {
   return (
-    <div className="flex flex-col tablet:flex-row gap-48  py-100 px-24 phone-lg:px-64 tablet:px-100 laptop:px-200 items-center laptop:py-[250px] font-inter">
-      <img className='w-full tablet:w-1/2 laptop:w-full' src="images/placeholder-img.svg" alt="" />
+    <div className="flex flex-col-reverse tablet:flex-row gap-48  py-100  px-24 phone-lg:px-64 tablet:px-50 laptop-lg:px-100 desktop:px-200  laptop:py-200  items-center font-inter">
 
       <div className="flex flex-col gap-48 w-full">
         <HeadingsComponent subheading={'Experience'} heading={'Work Experiences'} />
@@ -38,6 +37,7 @@ const WorkExperience = () => {
 
       </div>
 
+      <img className='w-full tablet:w-1/2 laptop:w-full' src="images/placeholder-img.svg" alt="" />
 
     </div>
   )

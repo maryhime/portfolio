@@ -11,7 +11,7 @@ export const SERVICES = Object.freeze([
   },
   {
     icon :  'icons/pallete.svg',
-    title : 'Illustration',
+    title : 'Digital Art',
     description : 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo ea possimus officia, asperiores qui accusamus mollitia sunt nesciunt, ipsum, cumque dicta. Reprehenderit, esse? Beatae sunt distinctio eius earum, quos temporibus!'
   },
   

@@ -5,6 +5,7 @@ import SideLinks from '../components/SideLinks'
 import RightSideLink from '../components/RightSideLink'
 import AboutPage from './AboutPage'
 import ServicesPage from './ServicesPage'
+import ToolsSection from '../components/ToolsSection'
 
 
 const HomePage = () => {
@@ -18,6 +19,7 @@ const HomePage = () => {
       <HeroSection />
       <AboutPage/>
       <ServicesPage />
+      <ToolsSection />
      
       
 

@@ -10,6 +10,7 @@ export default {
       'phone-lg' : '768px',
       'tablet' : '1024px',
       'laptop' : '1280px',
+      'laptop-lg' : '1440px',
       'desktop' : '1728px',
     },
     colors : {
