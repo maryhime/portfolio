@@ -3,7 +3,7 @@ import HeadingsComponent from './generic/HeadingsComponent'
 
 const AboutSection = () => {
   return (
-    <div className="flex flex-col tablet:flex-row gap-48 px-24 phone-lg:px-64 tablet:px-100 laptop:px-200 items-center pt-100 laptop:py-[250px] font-inter ">
+    <div className="flex flex-col tablet:flex-row gap-48 px-24 phone-lg:px-64 tablet:px-100 laptop:px-200 items-center py-100 laptop:py-[250px] font-inter ">
 
       <img className='w-full tablet:w-1/2 laptop:w-full' src="images/placeholder-img.svg" alt="" />
 
