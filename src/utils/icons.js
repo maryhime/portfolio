@@ -11,15 +11,6 @@ export const ICONS = Object.freeze([
   
     'message' : 
     'icons/message.svg',
- 
-    'layers' : 
-    'icons/layers.svg',
-
-    'programming' : 
-    'icons/programming.svg',
-
-    'pallete' : 
-    'icons/pallete.svg',
   
     'after-effects' : 
     'icons/adobe-after-effects.svg',

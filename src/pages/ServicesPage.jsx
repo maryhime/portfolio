@@ -4,10 +4,13 @@ import CardComponent from '../components/generic/CardComponent'
 
 const ServicesPage = () => {
   return (
-    <div className="flex flex-col tablet:flex-row gap-48 px-24 py-100 phone-lg:px-64 tablet:px-100 laptop:px-100 items-center laptop:py-[250px] font-inter">
+    <div className="flex flex-col gap-48 py-100  px-24 phone-lg:px-64 tablet:px-50 laptop:px-200 laptop:py-[250px] font-inter w-full">
       <HeadingsComponent subheading={'what i will do for you'} heading={'services i offer'} />
       
-      <CardComponent heading={'UI/UX Design'} text={' Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo ea possimus officia, asperiores qui accusamus mollitia sunt nesciunt, ipsum, cumque dicta. Reprehenderit, esse? Beatae sunt distinctio eius earum, quos temporibus!'} />
+      <div className="grid grid-cols-1 tablet:grid-cols-3 col-span- laptop:grid-cols-3 gap-16 laptop:gap-24">
+        <CardComponent />
+      </div>
+      
 
 
     </div>

@@ -18,7 +18,15 @@ export default {
       'accent-1' : '#8C4C6F',
       'accent-2' : '#C26499',
     },
+    gradientColorStopPositions : {
+      'background' : '#26102A',
+      'text-color' : '#E4C7B7',
+      'accent-1' : '#8C4C6F',
+      'accent-2' : '#C26499',
+    },
+
     padding : {
+      '200' : '200px',
       '100' : '100px',
       '64' : '64px',
       '48' : '48px',
@@ -74,10 +82,10 @@ export default {
         letterSpacing: 'auto',
         fontWeight: '700',
       }],
-      'body' : ['18px', {
-        lineHeight: 'auto',
+      'body' : ['20px', {
+        lineHeight: '1.5em',
         letterSpacing: 'auto',
-        fontWeight: 'normal',
+        fontWeight: '400',
       }],
       'subheading' : ['20px', {
         lineHeight: 'auto',
@@ -115,7 +123,7 @@ export default {
         fontWeight: '600',
       }],
       'tablet-body' : ['16px', {
-        lineHeight: 'auto',
+        lineHeight: '1.5em',
         letterSpacing: 'auto',
         fontWeight: 'normal',
       }],
@@ -155,7 +163,7 @@ export default {
         fontWeight: '600',
       }],
       'phone-body' : ['16px', {
-        lineHeight: 'normal',
+        lineHeight: '1.5em',
         fontWeight: '400',
       }],
       'btn-lg' : ['18px', {

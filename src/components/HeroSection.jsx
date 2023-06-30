@@ -6,7 +6,7 @@ const HeroSection = () => {
   return (
     <>
       {ICONS.map((value, index) =>
-        <div key={index}  className="flex flex-col gap-48 px-24 phone-lg:px-64 tablet:px-100 laptop:px-100 items-center pt-100 laptop:pt-[250px]">
+        <div key={index}  className="flex flex-col gap-48 px-24 phone-lg:px-64 tablet:px-100 laptop:px-200 items-center pt-100 laptop:pt-[250px]">
 
           <img className='w-full phone-lg:w-[422px] tablet:w-full laptop:h-[193px]' src="images/placeholder-img.svg" alt="" />
 

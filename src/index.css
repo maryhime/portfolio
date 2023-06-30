@@ -23,4 +23,13 @@
     margin-top: 200px;
     background-color: #E4C7B7;
   }
+  .card{
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.20) 0%, rgba(255, 255, 255, 0.00) 100%);
+
+  }
+  .card:hover{
+    background: linear-gradient(135deg, rgba(194, 100, 153, 0.50) 0%, rgba(194, 100, 153, 0.50) 0.01%, rgba(255, 255, 255, 0.00) 100%, rgba(255, 255, 255, 0.00) 100%);
+    box-shadow: 0px 0px 49px 0px #421B47;
+
+  }
 }
