@@ -1,13 +1,13 @@
-''
 
-import HeroSection from "./components/HeroSection";
 import HomePage from "./pages/HomePage";
 
 export const PAGES = [
   {
-    name : "Menu",
+    name : "Home",
     path : '/name',
     component : <HomePage/>
   },
+
+
 ]
 
