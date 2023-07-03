@@ -3,7 +3,7 @@ import { PROJECTS } from '../../utils/projectLists'
 import ChipComponent from './ChipComponent'
 import PillsComponent from './PillsCOmponent'
 
-const PorfolioCard = () => {
+export const PorfolioCard = () => {
   return (
     <>
       {PROJECTS.map((value, index) =>
