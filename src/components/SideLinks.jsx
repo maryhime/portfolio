@@ -4,7 +4,7 @@ import { ICONS } from '../utils/icons'
 const SideLinks = () => {
   return (
     
-      <div className="flex flex-col w-fit justify-end sticky top-full pl-16 laptop-lg:pl-24">
+      <div className="flex flex-col w-fit justify-end sticky top-full pl-16 laptop-lg:pl-24 ">
         {ICONS.map((value, index) =>
           <ul key={index} className='line flex flex-col gap-24 items-center'>
             <li className="w-[24px] h-[24px] laptop-lg:w-[32px] laptop-lg:h-[32px]">
