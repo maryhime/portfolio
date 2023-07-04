@@ -5,17 +5,17 @@ import { PAGES } from './routes'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <div className="bg-[url('/images/background.svg')] ] bg-no-repeat phone:bg-auto tablet:bg-cover h-screen w-screen">
+    <div className="bg-[url('/images/background.svg')] ] bg-no-repeat bg-cover h-screen w-screen overflow-x-hidden">
       {PAGES.map((value, index) =>
-      <Fragment key={index} >
-        {value.component}
-      </Fragment>
-  
+        <Fragment key={index} >
+          {value.component}
+        </Fragment>
+
       )}
 
-        
 
-      
+
+
     </div>
   </React.StrictMode>,
 )

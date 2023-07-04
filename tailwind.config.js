@@ -55,7 +55,7 @@ export default {
     borderRadius: {
       'none': '0',
       'button': '30px',
-      'card': '30px'
+      'card': '20px'
     },
     fontSize : {
       'h1' : ['120px', {
