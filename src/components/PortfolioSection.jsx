@@ -3,6 +3,7 @@ import PorfolioCard from './generic/PorfolioCard'
 import HeadingsComponent from './generic/HeadingsComponent'
 import FilledButtonComponent from './generic/FilledButtonComponent'
 import LinkComponent from './generic/LinkComponent'
+import AliceCarousel from 'react-alice-carousel'
 
 
 const PortfolioSection = () => {
@@ -17,11 +18,16 @@ const PortfolioSection = () => {
           </LinkComponent>
         </div>
 
-
+        {/* 
 
        <div className="grid grid-cols-1 tablet:grid-cols-2 laptop:grid-cols-4 gap-48 w-full">
           <PorfolioCard />
-        </div> 
+        </div>  */}
+
+
+<PorfolioCard />
+         
+
 
 
 

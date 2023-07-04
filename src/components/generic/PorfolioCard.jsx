@@ -2,46 +2,56 @@ import React from 'react'
 import { PROJECTS } from '../../utils/projectLists'
 import ChipComponent from './ChipComponent'
 import PillsComponent from './PillsComponent'
+import AliceCarousel from 'react-alice-carousel'
 
 export const PorfolioCard = () => {
   return (
     <>
-      {PROJECTS.map((value, index) =>
+      <AliceCarousel autoPlay disableButtonsControls infinite autoPlayInterval={3000} animationType='fadeout' responsive={{
+        0: {
+          items: 1,
+        },
+        1024: {
+          items: 4,
+          itemsFit: 'contain',
+        }
+      }
+      }>
+        {PROJECTS.map((value, index) =>
 
-        <div key={index} className="flex flex-col tablet:gap-48 w-full">
-          <img src={value.preview} alt="" />
-          <div className="flex flex-col gap-8 tablet:gap-16">
-               <div className="flex flex-row gap-8">
+          <div key={index} className="flex flex-col tablet:gap-48 w-full">
+            <img src={value.preview} alt="" />
+            <div className="flex flex-col gap-8 tablet:gap-16">
+              <div className="flex flex-row gap-8">
 
-            {value.category.map((item, index) =>
-              <ChipComponent key={index} text={item} />
-            )}
+                {value.category.map((item, index) =>
+                  <ChipComponent key={index} text={item} />
+                )}
 
-          </div>
-          <div className="flex flex-col gap-8">
-            <div className="text-text-color uppercase">
-              {value.title}
+              </div>
+              <div className="flex flex-col gap-8">
+                <div className="text-text-color uppercase">
+                  {value.title}
+                </div>
+                <div className="text-text-color ">
+                  {value.description}
+                </div>
+              </div>
+
+              <div className="flex flex-row gap-8">
+                {value.tags.map((item, index) =>
+                  <PillsComponent key={index} text={item} />
+                )}
+
+              </div>
             </div>
-            <div className="text-text-color ">
-              {value.description}
-            </div>
+
+
           </div>
 
-          <div className="flex flex-row gap-8">
-            {value.tags.map((item, index) =>
-              <PillsComponent key={index} text={item} />
-            )}
 
-          </div>
-          </div>
-       
-
-
-
-        </div>
-
-      )}
-
+        )}
+      </AliceCarousel>
     </>
   )
 }

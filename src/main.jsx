@@ -6,7 +6,7 @@ import FloatingWindowComponent from './components/FloatingWindowComponent'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <FloatingWindowComponent/>
+    {/* <FloatingWindowComponent/> */}
     <div className="bg-[url('/images/background.svg')] ] bg-no-repeat bg-cover h-screen w-screen overflow-x-hidden">
       {PAGES.map((value, index) =>
         <Fragment key={index} >

@@ -13,7 +13,7 @@ const HomePage = () => {
   return (
     <>
       <NavbarComponent />
-      <div className="hidden tablet:flex tablet:fixed w-full top-1/2 z-10 justify-between">
+      <div className="hidden tablet:flex tablet:fixed w-full top-1/2 z-0 justify-between">
         <SideLinks />
         <RightSideLink />
       </div>
