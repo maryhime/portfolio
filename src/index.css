@@ -36,4 +36,10 @@
     box-shadow: 0px 0px 49px 0px #421B47;
 
   }
+  .alice-carousel__stage-item.__active{
+    scale: 10 !important;
+  }
+  .alice-carousel__stage-item.__target{
+    opacity: 0.5;
+  }
 }
