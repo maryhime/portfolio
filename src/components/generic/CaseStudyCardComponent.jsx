@@ -19,7 +19,7 @@ const CaseStudyCardComponent = () => {
                 {value.description}
               </p>
             </div>
-            <div className="grid grid-cols-3 tablet:grid-cols-4 gap-8">
+            <div className="flex flex-row gap-8">
               {value.tags.map((tags, index) =>
                 <PillsComponent key={index} text={tags} />
               )}

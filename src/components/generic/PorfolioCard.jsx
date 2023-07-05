@@ -11,6 +11,7 @@ export const PorfolioCard = () => {
    animationType='slide' responsive={{
         0: {
           items: 1,
+          itemsFit: 'contain',
         },
         1024: {
           items: 2,

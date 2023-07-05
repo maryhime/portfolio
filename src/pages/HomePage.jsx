@@ -8,6 +8,7 @@ import ServicesPage from './ServicesPage'
 import ToolsSection from '../components/ToolsSection'
 import PortfolioSection from '../components/PortfolioSection'
 import CaseStudiesSection from '../components/CaseStudiesSection'
+import CTABlockComponent from '../components/generic/CTABlockComponent'
 
 
 const HomePage = () => {
@@ -25,6 +26,7 @@ const HomePage = () => {
         <ToolsSection />
         <PortfolioSection />
         <CaseStudiesSection />
+        <CTABlockComponent/>
       </div>
 
 

@@ -64,3 +64,31 @@
    opacity: 1;
    
 }
+
+@media only screen and (max-width: 375px) {
+  .alice-carousel__stage-item.__active, .alice-carousel__stage-item.__target{
+    transform: scale(1);
+    opacity: 1;
+ }
+ .alice-carousel__stage-item{
+  height: fit-content;
+  opacity: 1;
+  transform: scale(1);
+}
+.alice-carousel__wrapper{
+  height: 600px;
+  width: 100%;
+ 
+  
+ }
+ 
+ .alice-carousel__stage {
+     width: 100%;
+     display: flex;
+     flex-direction: column;
+     gap: 4px;
+     align-items: center;
+     transform: none !important;
+   }
+ 
+}
