@@ -7,16 +7,17 @@ import AliceCarousel from 'react-alice-carousel'
 export const PorfolioCard = () => {
   return (
     <>
-      <AliceCarousel autoPlay disableButtonsControls infinite autoPlayInterval={3000} animationType='fadeout' responsive={{
+      <AliceCarousel stopAutoPlayOnHover disableButtonsControls autoPlayInterval={3000} activeIndex={1}
+   animationType='slide' responsive={{
         0: {
           items: 1,
         },
         1024: {
-          items: 4,
+          items: 2,
           itemsFit: 'contain',
         }
-      }
-      }>
+      }}
+      >
         {PROJECTS.map((value, index) =>
 
           <div key={index} className="flex flex-col tablet:gap-48 w-full">
