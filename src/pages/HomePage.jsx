@@ -7,6 +7,7 @@ import AboutPage from './AboutPage'
 import ServicesPage from './ServicesPage'
 import ToolsSection from '../components/ToolsSection'
 import PortfolioSection from '../components/PortfolioSection'
+import CaseStudiesSection from '../components/CaseStudiesSection'
 
 
 const HomePage = () => {
@@ -23,6 +24,7 @@ const HomePage = () => {
         <ServicesPage />
         <ToolsSection />
         <PortfolioSection />
+        <CaseStudiesSection />
       </div>
 
 
