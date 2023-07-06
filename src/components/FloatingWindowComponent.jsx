@@ -7,9 +7,8 @@ const FloatingWindowComponent = () => {
   return (
     <div className='hidden laptop:block fixed w-fit left-[84%] top-80 z-20'>
       {ICONS.map((value, index) =>
-        <LinkComponent key={index}>
-          <img  src={value['close-circle']} alt="close" className='absolute -top-3 left-[285px] z-20' />
-        </LinkComponent>
+
+        <img key={index} src={value['close-circle']} alt="close" className='absolute -top-3 left-[285px] z-20' />
       )}
       <div className="sticky top-0 left-full z-10 card backdrop-blur-[25px] font-inter text-text-color px-24 py-24 rounded-card flex flex-col w-[315px] gap-24">
         <div className="flex flex-row gap-16 items-center">
