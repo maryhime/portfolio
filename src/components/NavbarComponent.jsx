@@ -3,7 +3,7 @@ import { ICONS } from '../utils/icons'
 import FilledButtonComponent from './generic/FilledButtonComponent';
 import LinkComponent from './generic/LinkComponent';
 
-const NAVIGATIONS = ['Home', 'About', 'Services', 'Portfolio'];
+export const NAVIGATIONS = ['Home', 'About', 'Services', 'Portfolio'];
 
 const NavbarComponent = () => {
   return (

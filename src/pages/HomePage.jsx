@@ -14,7 +14,7 @@ import CTABlockComponent from '../components/generic/CTABlockComponent'
 const HomePage = () => {
   return (
     <>
-      <NavbarComponent />
+
       <div className="hidden tablet:flex tablet:fixed w-full top-1/2 z-0 justify-between">
         <SideLinks />
         <RightSideLink />
@@ -26,9 +26,8 @@ const HomePage = () => {
         <ToolsSection />
         <PortfolioSection />
         <CaseStudiesSection />
-        <CTABlockComponent/>
       </div>
-
+      <CTABlockComponent />
 
 
     </>
