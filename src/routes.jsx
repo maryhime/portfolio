@@ -1,4 +1,3 @@
-
 import HomePage from "./pages/HomePage";
 
 export const PAGES = [
@@ -7,6 +6,7 @@ export const PAGES = [
     path : '/name',
     component : <HomePage/>
   },
+
 
 
 ]
